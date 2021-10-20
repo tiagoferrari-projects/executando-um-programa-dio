@@ -11,10 +11,9 @@ public class Order {
         this.code = code;
         this.totalValue = totalValue;
     }
-    private void printItems(){
-        int i = 0;
-        do {
+    private void printItems() {
+        for (int i = 0; i < items.length; i++) {
             System.out.println(items[i]);
-        }while (i < items.length);
+        }
     }
 }
