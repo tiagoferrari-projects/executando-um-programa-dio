@@ -12,8 +12,8 @@ public class Order {
         this.totalValue = totalValue;
     }
     private void printItems() {
-        for (int i = 0; i < items.length; i++) {
-            System.out.println(items[i]);
+        for (String item : items) {
+            System.out.println(item);
         }
     }
 }
