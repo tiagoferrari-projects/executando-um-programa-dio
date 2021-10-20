@@ -13,9 +13,8 @@ public class Order {
     }
     private void printItems(){
         int i = 0;
-        while (i < items.length){
+        do {
             System.out.println(items[i]);
-            i++;
-        }
+        }while (i < items.length);
     }
 }
